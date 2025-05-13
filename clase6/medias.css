@@ -1,0 +1,63 @@
+/* Small devices (tablets) */
+@media only screen and (min-width: 600px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main.principal {
+        flex: 2;
+    }
+
+    aside {
+        flex: 1;
+    }
+}
+
+/* Medium devices (desktops) */
+@media (min-width: 800px) {
+    body {
+        padding: 2rem 5rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        gap: 2rem;
+    }
+
+    .publicidad {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+    /* A partir de 992px el menú hamburguesa se oculta completamente */
+    .hamburger {
+        display: none !important;
+    }
+
+    .menu {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+    }
+}

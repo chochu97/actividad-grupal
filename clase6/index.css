@@ -1,0 +1,125 @@
+@import url(medias.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  padding: 10px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+nav {
+  margin-bottom: 1rem;
+}
+
+.hamburger {
+  font-size: 2rem;
+  display: block;
+  text-align: right;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.principal {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.noticia-grande img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.noticia-grande h2 {
+  margin-bottom: 0.5rem;
+}
+
+.noticia-grande p {
+  margin-bottom: 0.5rem;
+}
+
+.noticias-secundarias {
+  margin-top: 1rem;
+}
+
+.noticias-secundarias article {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+aside {
+  background: #e0e0e0;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+aside h2 {
+  margin-bottom: 0.5rem;
+}
+
+aside p {
+  margin-bottom: 0.5rem;
+}
+
+.publicidad {
+  background: #fffbea;
+  padding: 1rem;
+  text-align: center;
+  border: 1px dashed #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
